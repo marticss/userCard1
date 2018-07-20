@@ -1,0 +1,161 @@
+.container-fluid {
+    width:100%;
+    height: 100vh;
+    background: #2b313f;
+}
+.marginTop{
+    transform: translateY(100px);
+}
+.userborder{
+    position: relative;
+    top: -6.5vw;
+    display: flex;
+    justify-content: center;
+    width: 11vw;
+    height: 11vw;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #F2A900 0%, #E8F237 100%);
+}
+.userPhoto {
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 10vw;
+    height: 10vw;
+}
+
+.user2border {
+    position: relative;
+    top: -6.5vw;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 11vw;
+    height: 11vw;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #771B45, #ED3688 100%);
+}
+.user2Photo {
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 10vw;
+    height: 10vw;
+}
+
+
+.user {
+    color: grey;
+    font-weight: 100;
+}
+
+
+.card-title{
+    color: grey;
+}
+.title2{
+    transform: translateY(-50px) !important;
+}
+
+.card-text {
+    color: grey;
+    font-size: 120%;
+}
+
+.container .userAbout {
+    width: 85%;
+    margin-top: -4.5vw;
+}
+
+.container .footerContainer {
+    width: 85%;
+    padding: 0;
+    margin: 0 auto;
+}
+.container .userContainer {
+    width: 85%;
+}
+.btn {
+    border-radius: 30px !important;
+    padding: 5px 30px !important;
+}
+.footerCard {
+    color: grey;
+    padding-top: 20px;
+}
+
+.footerCard:last-child {
+    border-right: none;
+}
+.card-footer {
+    padding: 0 1.25rem !important;
+    border-top: none;
+}
+.footerCard2 {
+    color: grey;
+    border-right: 1px solid rgba(0,0,0,.125);
+    padding-top: 20px;
+}
+.footerCard2:last-child {
+    border-right: none;
+}
+span {
+    color:#2b313f;
+    font-size: 140%;
+}
+/*-----------------------------------------------*/
+
+@media only screen and (max-width: 1000px) {
+    .footerCard,
+    .footerCard2 {
+        font-size: 60%;
+    }
+    span {
+        font-size: 60%;
+    }
+    .card-text {
+        font-size: 80%;
+    }
+    .UserName {
+        font-size: 130%;
+    }
+    .user {
+        font-size: 60%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .User2Name {
+        transform: translateY(10px);
+    }
+}
+@media only screen and (max-width: 767px) {
+    .userborder{
+        position: relative;
+        top: -6.5vw;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 11vw;
+        height: 11vw;
+        border-radius: 50%;
+        background-image: linear-gradient(to right, #F2A900 0%, #E8F237 100%);
+    }
+    .userPhoto {
+        margin: 0 auto;
+        border-radius: 50%;
+        width: 10vw;
+        height: 10vw;
+    }
+    .user {
+        transform: translateY(-40px);
+    }
+}
+@media only screen and (max-width: 600px) {
+    .title2 {
+        transform: translateY(-18px)!important;
+    }
+    .user {
+        transform: translateY(0px);
+    }
+    .User2Name {
+        transform: translateY(-5px);
+    }
+}
